@@ -1,7 +1,6 @@
 /**** Google Font ****/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /* Variables */
 
@@ -10,12 +9,12 @@
     --body_bg: #ffffff;
     --body_color: #717171;
     --primary_color: #000000;
-    --secondary_color: #422519;
-    --hover_color: #d2b48c;
+    --secondary_color: #00A6EA;
+    --hover_color: #003FCC;
     --light_color: #f9f8f3;
     /* Font Family */
-    --title_font: 'Prata', serif;
-    --body_font: 'Open Sans', sans-serif;
+    --title_font: 'Manrope', sans-serif;
+    --body_font: 'Manrope', sans-serif;
     /* Font Size Typo Variables */
     --fontsize_body: 16px;
     --heading_H1: 36px;
@@ -186,7 +185,7 @@ a {
 }
 
 a:hover {
-    color: var(--secondary_color);
+    color: var(--hover_color);
 }
 
 
@@ -346,7 +345,7 @@ section.landing-section.section-padding {
 }
 
 .site-logo img {
-    width: 180px;
+    /* width: 183px; */
 }
 
 .site-header .button, .site-header .theme-button {

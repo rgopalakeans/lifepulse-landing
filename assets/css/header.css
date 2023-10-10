@@ -61,12 +61,15 @@
     font-family: var(--title_font);
     font-weight: 600;
     position: relative;
+    color: #1A1A1ABF;
 }
-
+.shopify-section-header nav.main-navigation ul.main-menu li a:hover{
+    color:var(--hover_color);
+}
 .shopify-section-header nav.main-navigation ul.main-menu li a:after {
     position: absolute;
     content: "";
-    background: var(--secondary_color);
+    background: currentColor;
     width: 0;
     right: 0;
     bottom: 0;
